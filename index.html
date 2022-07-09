@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Cafe</title>
+    <link rel="icon" type="image/x-icon" href="./images/bright-cat.png">
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+
+    <!-- cat icon -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <section class="navbar_container">
+            <a href="#intro" id="navbar_logo">😻CAT CAFE</a>
+
+            <!-- responsive menu icon -->
+            <section class="navbar_toggle" id="responsive-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </section>
+            <!-- navigation menu-->
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#intro" class="navbar_links" id="intro-page">About Us</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#menu" class="navbar_links" id="menu-page">Our Menu</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#meetthecats" class="navbar_links" id="meetthecats-page">Meet The Cats</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#findus" class="navbar_links" id="findus-page">Find Us</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#faq" class="navbar_links" id="faq-page">FAQs</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#signup" class="button" id="signup">Login</a>
+                </li>
+                <li class="nav-item" id="toggle">
+                    <img src="./images/bright-cat.png" alt="Bright Mode" style="width:35px;height: 35px;" />
+                    <article class="overlay">
+                        <article class="text">Click to switch brightness</article>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main class="#intro" id="intro-page">
+        <!--Overview-->
+        <section class="intro" id="site_intro">
+            <div class="cafe">
+                <img src="https://www.wincantonwindow.co.uk/assets/images/blog/2011-12/978/978_2_cat-cafe-exterior.jpg"
+                    id="cafeimage" alt=" cafe image" />
+
+                <div class="info">
+                    <h2 id="welcome">Welcome to The Cat Cafe!</h2>
+                    <br>
+                    <p>Cat Cafe’s core mission is to raise the public awareness of homeless cats, and together with the
+                        public and our partners, find forever homes for as many cats as possible while being a relaxing
+                        haven for our guests to ‘paws’ and enjoy in an otherwise busy world.
+
+                        Our vision is to offer a unique experience where both cats and guests are benefiting and that
+                        has positive effects on their wellbeing, all whilst contributing to a good cause.
+                        All proceeds go to cat charities.
+                    </p>
+                </div>
+            </div>
+            <h4>Order Online</h4>
+            <div class="deliveroo">
+                <a href="https://deliveroo.co.uk/">
+                    <img src="https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2016/09/05140012/PREFERRED-VERSION-Deliveroo-Logo_Full_CMYK_Teal-2.png"
+                        alt=deliveroo width="50" height="50">
+                </a>
+            </div>
+            <div class="ubereats">
+                <a href="https://www.ubereats.com/gb">
+                    <img src="https://pbs.twimg.com/profile_images/1525826473604567041/fOeuQzCg_400x400.jpg"
+                        id="img_uber" alt=ubereats width="50" height="50" />
+                </a>
+            </div>
+        </section>
+    </main>
+
+
+    <main>
+        <!-- Menu -->
+        <section class="#menu" id="menu">
+            <h2 class="section_heading">🍰Our Menu🍰</h2>
+            <main id="mainmenu">
+
+                <div>
+                    <img id="menu_one"
+                        src="https://images.unsplash.com/photo-1551879400-111a9087cd86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FrZSUyMHNsaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="slice of cranberry cake" height="200" width="175" />
+                    <h4>Cranberry Cake</h4>
+                    <h4>£2.50</h4>
+                    <p>Delicious cranberry cake, free side of cat hair <br>
+                        400kcal
+                    </p>
+                </div>
+                <div>
+                    <img id="menu_two"
+                        src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="cup of coffee" height="200" width="150" />
+                    <h4>Coffee</h4>
+                    <h4>£1.50</h4>
+                    <p>Delicious cup of coffee, made with love <br>
+                        75kcal
+                    </p>
+                </div>
+                <div>
+                    <img id="menu_three"
+                        src="https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVzc2VydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="pancakes" height="200" width="250" />
+                    <h4>Strawberry Pancakes</h4>
+                    <h4>£5.00</h4>
+                    <p>Delicious strawberry pancakes, free side of cat hair <br>
+                        350kcal
+                    </p>
+                </div>
+            </main>
+        </section>
+        <!-- Meet the cats -->
+        <section class="#meetthecats" id="meetthecats">
+            <h1 class="section_heading">🐈Meet the Cats🐈</h1>
+            <div id="cat_section">
+                <div>
+                    <img id="cat_one"
+                        src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="cat closing eyes" />
+                    <h4 class="center_text">Java</h4>
+                    <p id="cat_description">Meet Java, a striking looking cat with a playful and loving personality.
+                        She adores playing chase with string toys and feathers, burning off steam before snoozing for a
+                        few hours.
+                    </p>
+                </div>
+                <div>
+                    <img id="cat_two"
+                        src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80"
+                        alt="cat staring" />
+                    <h4 class="center_text">Python</h4>
+                    <p id="cat_description">Say hi to Python, this little kitty is a little nervous around new places
+                        and people
+                        but soon finds her confidence once she knows you have treats and cuddles to give.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Find Us (Locations) -->
+        <div class="#findus" id="findus">
+            <h1 class="section_heading">Find Us🔎</h1>
+            <div class="findus_section">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Buckingham%20Palace,%20Constitution%20Hill,%20Spur%20Rd,%20London%20SW1A%201AA,%20United%20Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-to.org"></a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: center;
+                                height: 100%;
+                                width: 100%;
+                                padding: 0;
+                            }
+                        </style><a href="https://www.embedgooglemap.net"></a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 100%;
+                                width: 100%;
+                                padding: 0;
+
+                            }
+
+                            .map-responsive {
+                                overflow: hidden;
+                                padding-bottom: 56.25%;
+                                position: absolute;
+                                height: 0;
+                            }
+
+                            .map-responsive iframe {
+                                left: 0;
+                                top: 0;
+                                height: 100%;
+                                width: 100%;
+                                position: absolute;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- FAQs -->
+        <div class="#faq" id="faq">
+            <h1 class="section_heading">FAQs</h1>
+            <div class="faqs_wrapper">
+                <div class="faqs_card">
+                    <h2>How many Cats visit the Cafe?</h2>
+                    <p>To date there have been 2,000 cats who have passed through our store.</p>
+                </div>
+                <div class="faqs_card">
+                    <h2>Do you cater for Events?</h2>
+                    <p>Yes! Give us a ring.</p>
+                </div>
+                <div class="faqs_card">
+                    <h2>Do you have Vegan options?</h2>
+                    <p>Definitely! Check out our menu.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- orange cake -->
+        <div id="orange_cake">
+            <section class="#signup" id="signup">
+                <img src="https://images.unsplash.com/photo-1620483603410-adc93e737181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNha2UlMjBzbGljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+                    alt="orange cake slice on plate" id="orange_cake_image" />
+            </section>
+
+            <!-- Subscribe for Rewards -->
+            <section class="#signup" id="signup">
+                <div>
+                    <h1 id="subscribe_title">Subscribe for Rewards 🎁</h1>
+                    <p id="reward_description">Say hello to easy ordering, endless choices and—yes, free coffee. Collect
+                        Stars based on how much you spend. For every £1, collect 3 Stars. And you can now collect Stars
+                        however you pay!
+                        So many ⭐ you might need 🕶.
+                    </p>
+                </div>
+                <h4>Sign up below!</h4>
+                <div id="signup_form">
+
+                    <form name="form">
+                        <label for="firstname">First Name</label><br>
+                        <input type="text" id="firstname" name="firstname" placeholder="First Name" required /><br>
+                        <label for="lastname">Last Name</label><br>
+                        <input type="text" id="lastname" name="lastname" placeholder="Last Name" required /><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="example@email.co.uk" required /><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password" placeholder="Password" minlength="8"
+                            required /><br>
+                        <p>Additional Suggestions</p>
+                        <textarea name="message" rows="5" cols="40"
+                            placeholder="Please give suggestions on we can improve :)" maxlength="300"></textarea>
+                        <br><br>
+                        <input id="submitbutton" type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <!-- Subscribe for Rewards
+        <section class="#signup" id="signup">
+            <div>
+                <h1>Subscribe for Rewards</h1>
+                <p id="reward_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div>
+                <form>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="firstname" /><br>
+                    <label for="lastname">Last Name</label><br>
+                    <input type="text" id="lastname" name="lastname" /><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" /><br>
+                    <input type="submit" value="Submit" />
+
+
+                </form>
+            </div>
+        </section>
+
+    </main> -->
+
+
+
+        <footer class="more_info">
+            <div id="footerdiv">
+
+                <div id="opening_hours">
+                    <p><strong>Opening Hours</strong></p>
+                    <p>Mon-Fri: 10:00-18:00</p>
+                    <br>
+                    <p>Sat: 10:00-20:00</p>
+                    <br>
+                    <p>Sun: Closed</p>
+                </div>
+                <div>
+                    <nav id="socials">
+                        <a href="https://www.instagram.com/">Follow us on Catstagram!🐾</a>
+                        <br><br>
+                        <a href="https://www.facebook.com/"> Check out our Facebook</a>
+                        <br><br>
+                        <a href="https://www.youtube.com/">Subscribe to our YouTube</a>
+                    </nav>
+                </div>
+                <div id="contact">
+                    <p> Address: 123 Cat Street, NW1 3AT</p>
+                    <br>
+                    <p>Telephone: 07284 239384</p>
+                    <br>
+                    <p>Email: catcafe@gmail.com</p>
+                </div>
+
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
